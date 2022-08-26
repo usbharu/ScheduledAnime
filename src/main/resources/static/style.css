@@ -1,0 +1,21 @@
+.video {
+  width: 300px;
+  background: yellow;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.thumbnail img {
+  border-radius: 8px;
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+}

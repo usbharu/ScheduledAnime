@@ -28,6 +28,8 @@ dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.0"
     implementation 'com.fasterxml.jackson.module:jackson-module-kotlin:2.13.3'
     implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.3'
+    implementation 'org.jetbrains.exposed:exposed:0.17.14'
+    runtimeOnly 'org.xerial:sqlite-jdbc:3.39.2.0'
 
     implementation "io.ktor:ktor-client-core:$ktor_version"
     implementation "io.ktor:ktor-client-cio:$ktor_version"
